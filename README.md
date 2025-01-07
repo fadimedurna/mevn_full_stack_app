@@ -4,7 +4,6 @@ This is the server-side component of the application. It is built using Node.js,
 
 #### Structure
 
-
 ```plaintext
 server/
 ├── app.js                   # Main entry point for the server
@@ -22,6 +21,7 @@ server/
 ```
 
 ## Dependencies
+
 The following dependencies are used in this project:
 
 The following dependencies are used in this project:
@@ -34,26 +34,35 @@ The following dependencies are used in this project:
 - **[multer](https://www.npmjs.com/package/multer)**: Middleware for handling `multipart/form-data` for file uploads.
 
 ## Installation
+
 Follow these steps to set up the server locally:
 
 1. Clone the repository:
+
 ```bash
 git clone <repository_url>
 cd server
 ```
+
 2. Install dependencies:
-`````bash
+
+```bash
 npm install
-````
+```
+
 3. Create a .env file in the root directory and configure the following variables:
-````plaintext
+
+```plaintext
 PORT=<port_number>
 MONGO_URI=<mongodb_connection_string>
-````
+```
+
 4. Start the server:
+
 ```bash
 npm start
 ```
+
 ## Features
 
 - **API Endpoints**: Manage and serve data using RESTful APIs.
@@ -62,13 +71,11 @@ npm start
 - **Environment Configuration**: Easily configurable using dotenv.
 
 ## Development
+
 To run the server in development mode with hot-reloading:
-````bash
+
+```bash
 npm run dev
-````
+```
+
 (Ensure you have nodemon installed globally or as a dev dependency.)
-
-
-
-
-
