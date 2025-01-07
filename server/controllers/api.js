@@ -1,4 +1,4 @@
-//Restful API endpoints for CRUD operations on posts c
+//Restful API endpoints for CRUD operations on posts
 
 const Post = require("../models/posts");
 const fs = require("fs");
