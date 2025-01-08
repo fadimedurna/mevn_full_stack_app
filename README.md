@@ -16,7 +16,7 @@ server/
 ├── routes/                  # API routing logic
 │   ├── routes.js            # Application routes
 ├── uploads/                 # Directory for file uploads
-│   ├── uploaded-pics        # Subdirectory for uploaded images
+│   ├── uploaded-pics        # Uploaded images
 └── ...
 ```
 
@@ -24,11 +24,9 @@ server/
 
 The following dependencies are used in this project:
 
-The following dependencies are used in this project:
-
 - **[cors](https://www.npmjs.com/package/cors)**: Enable Cross-Origin Resource Sharing.
 - **[dotenv](https://www.npmjs.com/package/dotenv)**: Manage environment variables.
-- **[express](https://www.npmjs.com/package/express)**: Fast and minimalist web framework for Node.js.
+- **[express](https://www.npmjs.com/package/express)**: Web application framework for Node.js, providing the foundation for building web applications and APIs.
 - **[mongodb](https://www.npmjs.com/package/mongodb)**: MongoDB driver for Node.js.
 - **[mongoose](https://www.npmjs.com/package/mongoose)**: MongoDB object modeling for Node.js.
 - **[multer](https://www.npmjs.com/package/multer)**: Middleware for handling `multipart/form-data` for file uploads.
@@ -68,7 +66,7 @@ npm start
 - **API Endpoints**: Manage and serve data using RESTful APIs.
 - **File Uploads**: Handle image uploads using Multer.
 - **Database Integration**: Connect to MongoDB using Mongoose.
-- **Environment Configuration**: Easily configurable using dotenv.
+- **Environment Configuration**: Configurable using dotenv.
 
 ## Development
 
